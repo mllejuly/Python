@@ -11,23 +11,12 @@ screen_name='CuteCatOnline'
 
 import twitter
 def oauth_login():
-    # TwitterAPI_alpha
-    CONSUMER_KEY = 'j9jwR6gKJbHy3D0AbcN86eFZp'
-    CONSUMER_SECRET = 'jyVRTZlLpdyVETbEroa9NNUHwGpcSQIHUm9Wd5WtjD6PGsVL0b'
-    OAUTH_TOKEN = '1230931083761508352-94dQPaNSFDNyD9rR2ChV5zIPvVPzFm'
-    OAUTH_TOKEN_SECRET = 'eZoY5a5dHFOOSBIco8P0yHEqUmBnVnUxAZaGFmadgtHKv'
-    
-    # TwitterAPI_beta
-#     CONSUMER_KEY = 'Mnj8YarunahLdZPSvmclS9BeG'
-#     CONSUMER_SECRET = 'fd7gwIaWjfTa8tlqP8tjc6L2OlGFpbNJXFrKNhOi3zREzHgFVx'
-#     OAUTH_TOKEN = '1230931083761508352-8e2sWXMAzBB91sSOu6kvGOWZcOMt7s'
-#     OAUTH_TOKEN_SECRET = '8tTxne1FQhMBNrKP1tgSA1QvjN0c4Lx1Gp36EicjdlUhR'
-    
-    # TwitterAPI_sigma
-#     CONSUMER_KEY = 'VvA1TwBD3uvi7tk60wHjRYsLF'
-#     CONSUMER_SECRET = 'ysLcM2ZfCEsy0OArbAJFULrExPAsOiWsJrDf9IDfYvoqMVyaBM'
-#     OAUTH_TOKEN = '1230931083761508352-L1PHJyDhhVprzm4GLaqnR78wjidfeX'
-#     OAUTH_TOKEN_SECRET = '086Pw34REW8IpIGW0t0CAxEHb4iOT2q4cbFrJfBgsUDLj'
+    # TwitterAPI
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    OAUTH_TOKEN = ''
+    OAUTH_TOKEN_SECRET = ''
+
     
     auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                                CONSUMER_KEY, CONSUMER_SECRET)
