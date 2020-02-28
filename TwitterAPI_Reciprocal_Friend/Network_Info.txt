@@ -1,0 +1,5 @@
+Network Graph Information Detail: 
+Total number of nodes is: 105
+Total number of edges is: 104
+The diameter of the network graph is: 6
+The average distance of the network graph is: 4.68
