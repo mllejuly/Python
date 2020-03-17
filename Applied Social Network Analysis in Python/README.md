@@ -4,19 +4,19 @@ by: Qi Fang
 
 
 ## **1. NetworkX Basic**
-   ** * Network(Graph), Nodes, Edges**
-   ** * Symmetric Relationships, Asymmetric Relationships**
-   ** * Undirected Network, Directed Network, Weighted Network, Signed Network, Multigraph**
+   * **Network(Graph), Nodes, Edges**
+   * **Symmetric Relationships, Asymmetric Relationships**
+   * **Undirected Network, Directed Network, Weighted Network, Signed Network, Multigraph**
         * Undirected: G = nx.Graph()
         * Directed: G = nx.DiGraph()
         * Weighted: G.add_edge('A', 'B', weight = 6)
         * Signed: G.add_edge('A', 'B', sign = '+')
         * Multigraph: G = nx.MultiGraph()
-   ** * Bipartite Graphs**
+   * **Bipartite Graphs**
 
 
 ## **2. Network Connectivity**
-   * Clustering Coefficient(聚类系数)
+   * **Clustering Coefficient(聚类系数)**
         * Clustering Coefficient measures the degree to which nodes in a network tend to cluster or form triangles.
         * Triadic Closure(三元闭包)
         * Local Clustering Coefficient(LCC, 局部集聚系数)
@@ -25,7 +25,7 @@ by: Qi Fang
         * Global Clustering Coefficient(局部集聚系数)
             * Average Local Clustering Coefficient over all nodes in the graph = nx.average_clustering(G)
             * Transitivity
-   * Distance Measures
+   * **Distance Measures**
         * Path
             * Shortest Path = nx.shortest_path(G, 'A', 'H')
         * Distance
@@ -49,7 +49,7 @@ by: Qi Fang
             * nx.center(G)
         * Karate Club Graph(空手道俱乐部数据集)
             * G = nx.karate_club_graph()
-   * Connected Components(连通分量)
+   * **Connected Components(连通分量)**
         * Connected Graph
             * An undirected graph is connected if, for every pair nodes, there is a path between them.
             * nx.is_connected(G)
@@ -59,7 +59,7 @@ by: Qi Fang
         * Strongly Connected Component, Weakly Connected Component
             * nx.strongly_connected_components(G)
             * nx.weakly_connected_components(G)
-   * Network Robustness
+   * **Network Robustness**
         * Disconnecting a Graph
             * Minimum nodes cut to disconnect a graph: nx.node_connectivity(G)
             * Nodes cut to disconnect a graph: nx.minimum_node_cut(G)
