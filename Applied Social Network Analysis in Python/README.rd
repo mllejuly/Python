@@ -1,4 +1,4 @@
-# **Applied Social Network Analysis Notes**
+**Applied Social Network Analysis Notes**
 by: Qi Fang
 
 
