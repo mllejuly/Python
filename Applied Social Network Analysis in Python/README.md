@@ -4,15 +4,15 @@ by: Qi Fang
 
 
 ## **1. NetworkX Basic**
-   * Network(Graph), Nodes, Edges
-   * Symmetric Relationships, Asymmetric Relationships
-   * Undirected Network, Directed Network, Weighted Network, Signed Network, Multigraph
+   ### * Network(Graph), Nodes, Edges
+   ### * Symmetric Relationships, Asymmetric Relationships
+   ### * Undirected Network, Directed Network, Weighted Network, Signed Network, Multigraph
        - Undirected: G = nx.Graph()
        - Directed: G = nx.DiGraph()
        - Weighted: G.add_edge('A', 'B', weight = 6)
        - Signed: G.add_edge('A', 'B', sign = '+')
        - Multigraph: G = nx.MultiGraph()
-   * Bipartite Graphs
+   ### * Bipartite Graphs
 
 
 ## **2. Network Connectivity**
