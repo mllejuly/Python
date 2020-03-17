@@ -1,9 +1,9 @@
-**Applied Social Network Analysis Notes**
+# **Applied Social Network Analysis Notes**
 
 by: Qi Fang
 
 
-1. NetworkX Basic
+**1. NetworkX Basic**
    * Network(Graph), Nodes, Edges
    * Symmetric Relationships, Asymmetric Relationships
    * Undirected Network, Directed Network, Weighted Network, Signed Network, Multigraph
@@ -15,7 +15,7 @@ by: Qi Fang
    * Bipartite Graphs
 
 
-2. Network Connectivity
+**2. Network Connectivity**
    * Clustering Coefficient(聚类系数)
        - Clustering Coefficient measures the degree to which nodes in a network tend to cluster or form triangles.
        - Triadic Closure(三元闭包)
