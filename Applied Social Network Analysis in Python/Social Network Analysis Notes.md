@@ -67,7 +67,16 @@ by: Qi Fang
             * Edges cut to disconnect a graph: nx.minimum_edge_cut(G)
             * Robust networks have large minimum node and edges cuts
    
-   
+## **3. Degree and Closeness Centrality**
+   * **Node Importance**
+        * Clustering Coefficient measures the degree to which nodes in a network tend to cluster or form triangles.
+        * Triadic Closure(三元闭包)
+        * Local Clustering Coefficient(LCC, 局部集聚系数)
+           * Local Clustering Coefficient of node C = # pairs of C's friends who are friends / # pairs of C's friends
+           * Local Clustering Coefficient of node C = nx.clustering(G, 'C')
+        * Global Clustering Coefficient(局部集聚系数)
+            * Average Local Clustering Coefficient over all nodes in the graph = nx.average_clustering(G)
+            * Transitivity
 
  
  
