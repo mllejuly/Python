@@ -70,13 +70,11 @@ by: Qi Fang
 ## **3. Influence Measures and Network Centralization**
    * **Degree and Closeness Centrality**
         * Centrality Measures
-          * Degree centrality
-          * Closeness centrality
-          * Betweenness centrality
-          * Load centrality
-          * Page Rank
-          * Katz centrality
-          * Percolation centrality
+          * Degree centrality(度中心性)
+          * Closeness centrality(紧密中心性)
+          * Betweenness centrality(中介中心性)
+          * Page Rank(网页排名)
+          * Load centrality, Katz centrality, Percolation centrality
    * **Node Importance**
         * Clustering Coefficient measures the degree to which nodes in a network tend to cluster or form triangles.
         * Triadic Closure(三元闭包)
@@ -95,8 +93,33 @@ by: Qi Fang
         * closeness centrality
         * betweenness centrality, normalized betweenness centrality
         * alpha (damping parameter) in the NetworkX function pagerank maximizes the PageRank of node X
-        * 
  
  
+ ## **4. Preferential Attachment Model**
+   * **Degree Distribution**
+        * degrees = G.degree()
+   * **Link Prediction(链接预测)**
+        * 1. Common Neighbors
+        * 2. Jaccared Coefficient
+        * 3. Resource Allocation
+        * 4. Adamic-Adar Index
+        * 5. Preferential Attachment
+        * 6. Community Common Neighbors
+        * 7. Community Resource Allocation
+        
+ ## **Appendix**
+   * **Related Model**
+       * Preferential Attachment Model(优先连接模型)
+       * Small World Model(六度空间理论)
+         * Path Length: nx.average_shortest_path_length(G)
+         * Clustering: nx.average_clustering(G)
+       
+   * **Related Algorithm**
+       * Page Rank Algorithm(网页排名算法，Google)
+         * Rank Leak
+         * Rank Sink
+       * Link Prediction Algorithms(链接预测算法)
+       
+
  
  
