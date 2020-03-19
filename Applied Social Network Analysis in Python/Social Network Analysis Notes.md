@@ -1,4 +1,4 @@
-# **Applied Social Network Analysis Notes**
+# **Social Network Analysis - Notes Summary**
 
 by: Qi Fang
 
@@ -67,7 +67,16 @@ by: Qi Fang
             * Edges cut to disconnect a graph: nx.minimum_edge_cut(G)
             * Robust networks have large minimum node and edges cuts
    
-## **3. Degree and Closeness Centrality**
+## **3. Influence Measures and Network Centralization**
+   * **Degree and Closeness Centrality**
+        * Centrality Measures
+          * Degree centrality
+          * Closeness centrality
+          * Betweenness centrality
+          * Load centrality
+          * Page Rank
+          * Katz centrality
+          * Percolation centrality
    * **Node Importance**
         * Clustering Coefficient measures the degree to which nodes in a network tend to cluster or form triangles.
         * Triadic Closure(三元闭包)
@@ -77,7 +86,16 @@ by: Qi Fang
         * Global Clustering Coefficient(局部集聚系数)
             * Average Local Clustering Coefficient over all nodes in the graph = nx.average_clustering(G)
             * Transitivity
-
+   * **Betweenness Centrality**
+   * **Page-Rank**
+   * **Hubs and Authorities***
+   
+   * **Calculation Summary**
+        * degree centrality
+        * closeness centrality
+        * betweenness centrality, normalized betweenness centrality
+        * alpha (damping parameter) in the NetworkX function pagerank maximizes the PageRank of node X
+        * 
  
  
  
